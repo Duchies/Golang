@@ -11,7 +11,7 @@ func main() {
 	fmt.Println("Planning a school trip")
 	var wg sync.WaitGroup
 
-	wg.Add(2)
+	wg.Add(3)
 	go func() {
 		time.Sleep(1 * time.Second)
 		fmt.Println("Rahul has done its task")
