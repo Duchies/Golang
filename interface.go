@@ -47,3 +47,16 @@ func (s *square) getArea() int {
 type shape interface {
 	getArea() int
 }
+
+```
+FollowUp Question
+```
+🔍 How does the shape interface identify which function to call?
+Let’s look at this part of your code:
+
+type shape interface {
+	getArea() int
+}
+This says: "Any type that has a method getArea() int is a shape."
+
+Best way to learn and remember
