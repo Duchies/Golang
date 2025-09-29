@@ -1,4 +1,4 @@
-A Structured Approach to Optimization
+# A Structured Approach to Optimization
 
 CPU Profiling: `go tool pprof` to find where the CPU cycles are being spent. This often points to inefficient algorithms, excessive serialization, or tight loops.
 
@@ -7,3 +7,9 @@ Memory Profiling: `go tool pprof` (for heap allocations) to find memory leaks an
 Benchmarking: Use the built-in testing.B benchmarking framework. "I would write benchmarks for suspected hot paths to get precise, reproducible performance data."
 
 Tracing: `go tool trace` to find concurrency issues like goroutine bottlenecks, poor parallelism, or excessive blocking.
+
+# 
+
+Comparison: sync.Mutex vs sync.RWMutex
+
+<img width="505" height="341" alt="Screenshot from 2025-09-29 22-25-49" src="https://github.com/user-attachments/assets/a7085e37-e0d9-4864-87d8-80bfd24f051a" />
